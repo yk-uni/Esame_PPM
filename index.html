@@ -1,189 +1,474 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CBS Style News</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CBS Style News</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
 
-  <!-- TOP NAV -->
-  <nav class="top-nav">
+<!-- TOP NAV -->
+<nav class="top-nav">
 
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="hamburger">☰</label>
+<input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" class="hamburger">☰</label>
 
-    <h1 class="logo"><a href="#">CBS NEWS </a></h1>
+<h1 class="logo"><a href="#">CBS NEWS</a></h1>
 
-    <ul class="menu">
-      <li class="dropdown">
-        <a href="#"><strong>Latest </strong><i class="arrow down"></i></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">U.S.</a></li>
-          <li><a href="#">World</a></li>
-          <li><a href="#">Politics</a></li>
-          <li><a href="#">Tech</a></li>
-          <li><a href="#">Health</a></li>
-        </ul>
-      </li>
+<ul class="menu">
 
-      <li class="dropdown">
-        <a href="#"><strong>Local News </strong><i class="arrow down"></i></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Atlanta</a></li>
-          <li><a href="#">Baltimore</a></li>
-          <li><a href="#">Bay Area</a></li>
-          <li><a href="#">Boston</a></li>
-        </ul>
-      </li>
+<li class="dropdown">
+<a href="#"><strong>Latest </strong><i class="arrow down"></i></a>
+<ul class="dropdown-menu">
+<li><a href="#">U.S.</a></li>
+<li><a href="#">World</a></li>
+<li><a href="#">Politics</a></li>
+<li><a href="#">Tech</a></li>
+<li><a href="#">Health</a></li>
+</ul>
+</li>
 
-      <li class="dropdown">
-        <a href="#"><strong>Live </strong><i class="arrow down"></i></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">CBS News 24/7</a></li>
-          <li><a href="#">Chicago</a></li>
-          <li><a href="#">Colorado</a></li>
-          <li><a href="#">Detroid</a></li>
-          <li><a href="#">Los Angeles</a></li>
-        </ul>
-      </li>
+<li class="dropdown">
+<a href="#"><strong>Local News </strong><i class="arrow down"></i></a>
+<ul class="dropdown-menu">
+<li><a href="#">Atlanta</a></li>
+<li><a href="#">Baltimore</a></li>
+<li><a href="#">Bay Area</a></li>
+<li><a href="#">Boston</a></li>
+</ul>
+</li>
 
-      <li class="dropdown">
-        <a href="#"><strong>Shows </strong><i class="arrow down"></i></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">48 hours</a></li>
-          <li><a href="#">60 minutes</a></li>
-          <li><a href="#">CBS Evening News</a></li>
-          <li><a href="#">CBS Morning News</a></li>
-        </ul>
-      </li>
-      
-    </ul>
+<li class="dropdown">
+<a href="#"><strong>Live </strong><i class="arrow down"></i></a>
+<ul class="dropdown-menu">
+<li><a href="#">CBS News 24/7</a></li>
+<li><a href="#">Chicago</a></li>
+<li><a href="#">Colorado</a></li>
+<li><a href="#">Detroit</a></li>
+<li><a href="#">Los Angeles</a></li>
+</ul>
+</li>
 
-  </nav>
+<li class="dropdown">
+<a href="#"><strong>Shows </strong><i class="arrow down"></i></a>
+<ul class="dropdown-menu">
+<li><a href="#">48 Hours</a></li>
+<li><a href="#">60 Minutes</a></li>
+<li><a href="#">CBS Evening News</a></li>
+<li><a href="#">CBS Morning News</a></li>
+</ul>
+</li>
 
-  <!-- SUB NAV -->
-  <nav class="subnav">
-    <ul>
-      <li><a href="#">Trending</a></li>
-      <li><a href="#">Breaking</a></li>
-      <li><a href="#">Investigations</a></li>
-      <li><a href="#">Economy</a></li>
-      <li><a href="#">Climate</a></li>
-      <li><a href="#">Science</a></li>
-    </ul>
-  </nav>
+</ul>
+
+</nav>
+
+<!-- SUB NAV -->
+<nav class="subnav">
+<ul>
+<li><a href="#">Trending</a></li>
+<li><a href="#">Breaking</a></li>
+<li><a href="#">Investigations</a></li>
+<li><a href="#">Economy</a></li>
+<li><a href="#">Climate</a></li>
+<li><a href="#">Science</a></li>
+</ul>
+</nav>
 
 </header>
 
+
 <main>
 
-  <!-- HERO -->
-  <section class="hero">
-    <article>
-      <a href="#">
-        <span class="live-badge">LIVE</span>
-        <img src="https://placehold.co/1200x500" alt="Main news">
-        <h2>Breaking News Headline Goes Here</h2>
-        <span class="timestamp">2 hours ago</span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </a>
-    </article>
-  </section>
+<!-- MAIN GRID (NOW HERO REPLACEMENT) -->
+<section class="news-grid">
 
-  <!-- TOP STORIES -->
-  <section class="top-stories">
+<article class="main-story">
+<a href="#">
+<img src="https://placehold.co/700x400" alt="">
+<h3>Main Feature Story</h3>
+<span class="timestamp">Just now</span>
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Explicabo tempora perspiciatis voluptatem doloribus nisi.
+</p>
+</a>
+</article>
 
-    <article class="card">
-      <a href="#">
-        <img src="https://placehold.co/400x250" alt="">
-        <h3>Top Story One</h3>
-        <span class="timestamp">30 min ago</span>
-      </a>
-    </article>
+<aside class="side-stories">
 
-    <article class="card">
-      <a href="#">
-        <img src="https://placehold.co/400x250" alt="">
-        <h3>Top Story Two</h3>
-        <span class="timestamp">1 hour ago</span>
-      </a>
-    </article>
+<article>
+<a href="#">
+<h4>Side Story 1</h4>
+<span class="timestamp">5 min ago</span>
+<p>Lorem ipsum dolor sit amet.</p>
+</a>
+</article>
 
-    <article class="card">
-      <a href="#">
-        <img src="https://placehold.co/400x250" alt="">
-        <h3>Top Story Three</h3>
-        <span class="timestamp">3 hours ago</span>
-      </a>
-    </article>
+<article>
+<a href="#">
+<h4>Side Story 2</h4>
+<span class="timestamp">20 min ago</span>
+<p>Donec ullamcorper nulla.</p>
+</a>
+</article>
 
-    <article class="card">
-      <a href="#">
-        <img src="https://placehold.co/400x250" alt="">
-        <h3>Top Story Four</h3>
-        <span class="timestamp">3 hours ago</span>
-      </a>
-    </article>
+<article>
+<a href="#">
+<h4>Side Story 3</h4>
+<span class="timestamp">1 day ago</span>
+<p>Curabitur blandit tempus.</p>
+</a>
+</article>
 
-  </section>
+</aside>
 
-  <!-- MAIN GRID -->
-  <section class="news-grid">
+</section>
 
-    <article class="main-story">
-      <a href="#">
-        <img src="https://placehold.co/700x400" alt="">
-        <h3>Main Section Story</h3>
-        <span class="timestamp">Just now</span>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-      </a>
-    </article>
+<!-- WORLD -->
+<section class="category">
+<div class="section-header">
+<h2 class="section-title">World</h2>
+<a href="#" class="view-more">More →</a>
+</div>
 
-    <aside class="side-stories">
-      <article><a href="#"><h4>Side Story 1</h4><span class="timestamp">5 min ago</span></a></article>
-      <article><a href="#"><h4>Side Story 2</h4><span class="timestamp">20 min ago</span></a></article>
-      <article><a href="#"><h4>Side Story 3</h4><span class="timestamp">1 day ago</span></a></article>
-    </aside>
+<div class="category-grid">
 
-  </section>
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>World Story 1</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+</a>
+</article>
 
-  <!-- WORLD -->
-  <section class="category">
-    <div class="section-header">
-      <h2 class="section-title">World</h2>
-      <a href="#" class="view-more">More →</a>
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>World Story 2</h3>
+<p>Vivamus sagittis lacus vel augue.</p>
+</a>
+</article>
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>World Story 3</h3>
+<p>Etiam porta sem malesuada magna.</p>
+</a>
+</article>
+
+</div>
+</section>
+
+
+<!-- POLITICS -->
+<section class="category">
+<div class="section-header">
+<h2 class="section-title">Politics</h2>
+<a href="#" class="view-more">More →</a>
+</div>
+
+<div class="category-grid">
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>Politics Story 1</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+</a>
+</article>
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>Politics Story 2</h3>
+<p>Aenean eu leo quam.</p>
+</a>
+</article>
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>Politics Story 3</h3>
+<p>Cras mattis consectetur.</p>
+</a>
+</article>
+
+</div>
+</section>
+
+<!-- MAIN GRID (NOW HERO REPLACEMENT) -->
+<section class="news-grid">
+
+<article class="main-story">
+<a href="#">
+<img src="https://placehold.co/700x400" alt="">
+<h3>Main Feature Story</h3>
+<span class="timestamp">Just now</span>
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Explicabo tempora perspiciatis voluptatem doloribus nisi.
+</p>
+</a>
+</article>
+
+<aside class="side-stories">
+
+<article class="side-card">
+  <a href="#">
+    <div class="text">
+      <h4>Side Story 1</h4>
+      <span class="timestamp">5 min ago</span>
+      <p>Lorem ipsum dolor sit amet.</p>
     </div>
+    <img src="https://placehold.co/120x80" alt="Side Story 1">
+  </a>
+</article>
 
-    <div class="category-grid">
-      <article class="card"><a href="#"><img src="https://placehold.co/400x250"><h3>World Story 1</h3></a></article>
-      <article class="card"><a href="#"><img src="https://placehold.co/400x250"><h3>World Story 2</h3></a></article>
-      <article class="card"><a href="#"><img src="https://placehold.co/400x250"><h3>World Story 3</h3></a></article>
+<article class="side-card">
+  <a href="#">
+    <div class="text">
+      <h4>Side Story 2</h4>
+      <span class="timestamp">20 min ago</span>
+      <p>Lorem ipsum dolor sit amet.</p>
     </div>
-  </section>
+    <img src="https://placehold.co/120x80" alt="Side Story 1">
+  </a>
+</article>
 
-  <!-- POLITICS -->
-  <section class="category">
-    <div class="section-header">
-      <h2 class="section-title">Politics</h2>
-      <a href="#" class="view-more">More →</a>
+<article class="side-card">
+  <a href="#">
+    <div class="text">
+      <h4>Side Story 3</h4>
+      <span class="timestamp">1 day ago</span>
+      <p>Lorem ipsum dolor sit amet.</p>
     </div>
+    <img src="https://placehold.co/120x80" alt="Side Story 1">
+  </a>
+</article>
 
-    <div class="category-grid">
-      <article class="card"><a href="#"><img src="https://placehold.co/400x250"><h3>Politics Story 1</h3></a></article>
-      <article class="card"><a href="#"><img src="https://placehold.co/400x250"><h3>Politics Story 2</h3></a></article>
-      <article class="card"><a href="#"><img src="https://placehold.co/400x250"><h3>Politics Story 3</h3></a></article>
-    </div>
-  </section>
+</aside>
+
+</section>
+
+<!-- WORLD -->
+<section class="category">
+<div class="section-header">
+<h2 class="section-title">World</h2>
+<a href="#" class="view-more">More →</a>
+</div>
+
+<div class="category-grid">
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>World Story 1</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+</a>
+</article>
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>World Story 2</h3>
+<p>Vivamus sagittis lacus vel augue.</p>
+</a>
+</article>
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>World Story 3</h3>
+<p>Etiam porta sem malesuada magna.</p>
+</a>
+</article>
+
+</div>
+</section>
+
+
+<!-- POLITICS -->
+<section class="category">
+<div class="section-header">
+<h2 class="section-title">Politics</h2>
+<a href="#" class="view-more">More →</a>
+</div>
+
+<div class="category-grid">
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>Politics Story 1</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+</a>
+</article>
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>Politics Story 2</h3>
+<p>Aenean eu leo quam.</p>
+</a>
+</article>
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>Politics Story 3</h3>
+<p>Cras mattis consectetur.</p>
+</a>
+</article>
+
+</div>
+</section>
+
+<!-- MAIN GRID (NOW HERO REPLACEMENT) -->
+<section class="news-grid">
+
+<article class="main-story">
+<a href="#">
+<img src="https://placehold.co/700x400" alt="">
+<h3>Main Feature Story</h3>
+<span class="timestamp">Just now</span>
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Explicabo tempora perspiciatis voluptatem doloribus nisi.
+</p>
+</a>
+</article>
+
+<aside class="side-stories">
+
+  <article class="side-card-vertical">
+    <a href="#">
+      <img src="https://placehold.co/300x180" alt="Side Story 1">
+      <div class="text">
+        <h4>Side Story 1</h4>
+        <span class="timestamp">5 min ago</span>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </a>
+  </article>
+
+  <article class="side-card-vertical">
+    <a href="#">
+      <img src="https://placehold.co/300x180" alt="Side Story 2">
+      <div class="text">
+        <h4>Side Story 2</h4>
+        <span class="timestamp">20 min ago</span>
+        <p>Donec ullamcorper nulla.</p>
+      </div>
+    </a>
+  </article>
+
+</aside>
+
+</section>
+
+<!-- POLITICS -->
+<section class="category">
+<div class="section-header">
+<h2 class="section-title">Politics</h2>
+<a href="#" class="view-more">More →</a>
+</div>
+
+<div class="category-grid">
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>Politics Story 1</h3>
+<p>Lorem ipsum dolor sit amet.</p>
+</a>
+</article>
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>Politics Story 2</h3>
+<p>Aenean eu leo quam.</p>
+</a>
+</article>
+
+<article class="card">
+<a href="#">
+<img src="https://placehold.co/400x250">
+<h3>Politics Story 3</h3>
+<p>Cras mattis consectetur.</p>
+</a>
+</article>
+
+</div>
+</section>
 
 </main>
 
-<footer>
-  <p>© 2026 CBS Style News</p>
+
+<!-- FOOTER (UNCHANGED) -->
+<footer class="site-footer">
+
+<div class="footer-brand">
+<h2 class="footer-logo">CBS NEWS</h2>
+<p>
+Breaking news, investigations, politics, world coverage and live reporting.
+Demo homepage recreation for Multimedia Design and Production.
+</p>
+</div>
+
+<div class="footer-grid">
+
+<div class="footer-column">
+<h4>News</h4>
+<a href="#">Breaking News</a>
+<a href="#">World</a>
+<a href="#">Politics</a>
+<a href="#">Health</a>
+<a href="#">Science</a>
+</div>
+
+<div class="footer-column">
+<h4>Programs</h4>
+<a href="#">60 Minutes</a>
+<a href="#">48 Hours</a>
+<a href="#">CBS Evening News</a>
+<a href="#">Sunday Morning</a>
+</div>
+
+<div class="footer-column">
+<h4>About</h4>
+<a href="#">Contact</a>
+<a href="#">Careers</a>
+<a href="#">Press</a>
+<a href="#">Accessibility</a>
+</div>
+
+<div class="footer-column">
+<h4>Follow</h4>
+<a href="#">YouTube</a>
+<a href="#">Instagram</a>
+<a href="#">Facebook</a>
+<a href="#">X / Twitter</a>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>© 2026 CBS News — Educational layout reproduction.</p>
+
+<div class="footer-legal">
+<a href="#">Privacy</a>
+<a href="#">Terms</a>
+<a href="#">Site Map</a>
+</div>
+</div>
+
 </footer>
 
 </body>
