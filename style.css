@@ -715,3 +715,52 @@ font-size:28px;
 }
 
 }
+/* COLORED CATEGORY (CBS Politics style) */
+.category-colored {
+  --category-bg: green;
+
+  background: var(--category-bg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* header */
+.category-colored .section-title{
+border-bottom:2px solid #fff;
+color:#fff;
+}
+
+/* "More" link */
+.category-colored .view-more{
+color:#fff;
+}
+
+.category-colored .view-more:hover{
+color:#fff;
+}
+
+/* cards */
+.category-colored .card h3{
+color:#fff;
+}
+
+.category-colored .card p{
+color:#fff;
+}
+
+.category-colored .timestamp{
+color:#fff;
+}
+
+/* optional: soften images slightly */
+.category-colored .card img{
+opacity:.9;
+}
+
+/* hover */
+.category-colored .card:hover{
+opacity:1;
+}
+.category-colored.blue {
+  --category-bg: #0674c8;
+}
