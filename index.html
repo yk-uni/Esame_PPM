@@ -9,96 +9,93 @@
 
 <body>
 
-<header class="site-header">
+<header class="site-header"  role="banner">
 
 <!-- TOP BAR -->
-<nav class="top-nav">
+<nav class="top-nav"  role="navigation"  aria-label="Main navigation">
 
-<input type="checkbox" id="menu-toggle">
+<input type="checkbox" id="menu-toggle" aria-label="Toggle menu">
 <label for="menu-toggle" class="hamburger">☰</label>
 
 <ul class="menu">
 
-<li class="dropdown">
-<a href="#"><strong>Latest</strong> <i class="arrow"></i></a>
+<li class="dropdown"  aria-haspopup="true">
+<a href="#"  aria-expanded="false"><strong>Latest</strong> <i class="arrow"></i></a>
 
 <ul class="dropdown-menu mega-menu">
-<div class="dropdown-col">
-<li><a href="#">U.S.</a></li>
-<li><a href="#">World</a></li>
-<li><a href="#">Politics</a></li>
-</div>
-
-<div class="dropdown-col">
-<li><a href="#">Tech</a></li>
-<li><a href="#">Health</a></li>
-<li><a href="#">Business</a></li>
-</div>
-</ul>
+<li class="dropdown-col">
+<a href="#">U.S.</a>
+<a href="#">World</a>
+<a href="#">Politics</a>
 </li>
 
+<li class="dropdown-col">
+<a href="#">Tech</a>
+<a href="#">Health</a>
+<a href="#">Business</a>
+</li>
+</ul>
 
-<li class="dropdown">
-<a href="#"><strong>Local News</strong> <i class="arrow"></i></a>
+
+
+<li class="dropdown"  aria-haspopup="true">
+<a href="#"  aria-expanded="false"><strong>Local News</strong> <i class="arrow"></i></a>
 
 <ul class="dropdown-menu mega-menu">
-<div class="dropdown-col">
-<li><a href="#">Atlanta</a></li>
-<li><a href="#">Baltimore</a></li>
-</div>
-
-<div class="dropdown-col">
-<li><a href="#">Bay Area</a></li>
-<li><a href="#">Boston</a></li>
-</div>
-</ul>
+<li class="dropdown-col">
+<a href="#">Atlanta</a>
+<a href="#">Baltimore</a>
 </li>
 
+<li class="dropdown-col">
+<a href="#">Bay Area</a>
+<a href="#">Boston</a>
+</li>
+</ul>
 
-<li class="dropdown">
-<a href="#">
+
+<li class="dropdown"  aria-haspopup="true">
+<a href="#"  aria-expanded="false">
 <span class="live-dot"></span>
 <strong>Live</strong>
 <i class="arrow"></i>
 </a>
 
 <ul class="dropdown-menu mega-menu">
-<div class="dropdown-col">
-<li><a href="#">CBS News 24/7</a></li>
-<li><a href="#">Chicago</a></li>
-<li><a href="#">Colorado</a></li>
-</div>
-
-<div class="dropdown-col">
-<li><a href="#">Detroit</a></li>
-<li><a href="#">Los Angeles</a></li>
-<li><a href="#">Miami</a></li>
-</div>
-</ul>
+<li class="dropdown-col">
+<a href="#">CBS News 24/7</a>
+<a href="#">Chicago</a>
+<a href="#">Colorado</a>
 </li>
 
+<li class="dropdown-col">
+<a href="#">Detroit</a>
+<a href="#">Los Angeles</a>
+<a href="#">Miami</a>
+</li>
+</ul>
 
-<li class="dropdown">
-<a href="#"><strong>Shows</strong> <i class="arrow"></i></a>
+
+<li class="dropdown"  aria-haspopup="true">
+<a href="#"  aria-expanded="false"><strong>Shows</strong> <i class="arrow"></i></a>
 
 <ul class="dropdown-menu mega-menu">
-<div class="dropdown-col">
-<li><a href="#">48 Hours</a></li>
-<li><a href="#">60 Minutes</a></li>
-</div>
-
-<div class="dropdown-col">
-<li><a href="#">Evening News</a></li>
-<li><a href="#">Sunday Morning</a></li>
-</div>
-</ul>
+<li class="dropdown-col">
+<a href="#">48 Hours</a>
+<a href="#">60 Minutes</a>
 </li>
 
+<li class="dropdown-col">
+<a href="#">Evening News</a>
+<a href="#">Sunday Morning</a>
+</li>
+</ul>
 
-<li class="dropdown">
-<a href="#" class="three-dots">•••</a>
 
-<ul class="dropdown-menu">
+<li class="dropdown"  aria-haspopup="true">
+<a href="#"  aria-expanded="false" class="three-dots">•••</a>
+
+<ul class="dropdown-menu"  role="menu">
 <li><a href="#">Sports</a></li>
 <li><a href="#">Travel</a></li>
 <li><a href="#">Opinion</a></li>
@@ -114,14 +111,14 @@
 
 
 <div class="nav-search">
-<a href="#">⌕</a>
+<a href="#" aria-label="Search news">⌕</a>
 </div>
 
 </nav>
 
 
 <!-- SECOND BAR -->
-<nav class="subnav">
+<nav class="subnav" aria-label="Secondary navigation">
 <ul>
 <li><a href="#">Trending</a></li>
 <li><a href="#">Breaking</a></li>
@@ -135,14 +132,14 @@
 </header>
 
 
-<main>
+<main role="main">
 
 <!-- NEWS GRID -->
 <section class="news-grid">
 
 <article class="main-story">
 <a href="#">
-<img src="https://placehold.co/700x400" alt="">
+<img src="https://placehold.co/700x400" alt="NEWS GRID 1">
 <span class="live-badge">LIVE</span>
 <h3>Lorem ipsum dolor</h3>
 <span class="timestamp">Just now</span>
@@ -157,7 +154,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article>
 <a href="#">
-<h4>Side Story 1</h4>
+<h4>Side Story 1.1</h4>
 <span class="timestamp">5 min ago</span>
 <p>Lorem ipsum dolor sit amet.</p>
 </a>
@@ -165,7 +162,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article>
 <a href="#">
-<h4>Side Story 2</h4>
+<h4>Side Story 1.2</h4>
 <span class="timestamp">20 min ago</span>
 <p>Donec ullamcorper nulla.</p>
 </a>
@@ -173,7 +170,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article>
 <a href="#">
-<h4>Side Story 3</h4>
+<h4>Side Story 1.3</h4>
 <span class="timestamp">1 day ago</span>
 <p>Curabitur blandit tempus.</p>
 </a>
@@ -187,14 +184,14 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 <section class="category">
 <div class="section-header">
 <h2 class="section-title">World
-<a href="#" class="view-more">More</a></h2>
+<a href="#" class="view-more" aria-label="View more World news">More</a></h2>
 </div>
 
 <div class="category-grid">
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="World Story 1">
 <h3>World Story 1</h3>
 <p>Lorem ipsum dolor sit amet.</p>
 <span class="timestamp">1 hour ago</span>
@@ -203,7 +200,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="World Story 2">
 <h3>World Story 2</h3>
 <p>Vivamus sagittis lacus vel augue.</p>
 <span class="timestamp">4 hour ago</span>
@@ -212,7 +209,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="World Story 3">
 <h3>World Story 3</h3>
 <p>Etiam porta sem malesuada magna.</p>
 <span class="timestamp">30 min ago</span>
@@ -227,7 +224,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 <section class="category">
 <div class="section-header">
 <h2 class="section-title">Politics
-<a href="#" class="view-more">More</a></h2>
+<a href="#" class="view-more" aria-label="View more Politics news">More</a></h2>
 <span class="timestamp">45 min ago</span>
 </div>
 
@@ -235,7 +232,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="Politics Story 1">
 <h3>Politics Story 1</h3>
 <p>Lorem ipsum dolor sit amet.</p>
 <span class="timestamp">2 hour ago</span>
@@ -244,7 +241,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="Politics Story 2">
 <h3>Politics Story 2</h3>
 <p>Aenean eu leo quam.</p>
 <span class="timestamp">4 hour ago</span>
@@ -253,7 +250,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="Politics Story 3">
 <h3>Politics Story 3</h3>
 <p>Cras mattis consectetur.</p>
 <span class="timestamp">4 hour ago</span>
@@ -268,7 +265,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="main-story">
 <a href="#">
-<img src="https://placehold.co/700x400" alt="">
+<img src="https://placehold.co/700x400" alt="NEWS GRID 2">
 <h3>Lorem ipsum dolor</h3>
 <span class="timestamp">5 min ago</span>
 <p>
@@ -283,33 +280,33 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 <article class="side-card">
   <a href="#">
     <div class="text">
-      <h4>Side Story 1</h4>
+      <h4>Side Story 2.1</h4>
       <span class="timestamp">10 min ago</span>
       <p>Lorem ipsum dolor sit amet.</p>
     </div>
-    <img src="https://placehold.co/120x80" alt="Side Story 1">
+    <img src="https://placehold.co/120x80" alt="Side Story 2.1">
   </a>
 </article>
 
 <article class="side-card">
   <a href="#">
     <div class="text">
-      <h4>Side Story 2</h4>
+      <h4>Side Story 2.2</h4>
       <span class="timestamp">10 min ago</span>
       <p>Lorem ipsum dolor sit amet.</p>
     </div>
-    <img src="https://placehold.co/120x80" alt="Side Story 1">
+    <img src="https://placehold.co/120x80" alt="Side Story 2.2">
   </a>
 </article>
 
 <article class="side-card">
   <a href="#">
     <div class="text">
-      <h4>Side Story 3</h4>
+      <h4>Side Story 2.3</h4>
       <span class="timestamp">1 day ago</span>
       <p>Lorem ipsum dolor sit amet.</p>
     </div>
-    <img src="https://placehold.co/120x80" alt="Side Story 1">
+    <img src="https://placehold.co/120x80" alt="Side Story 2.3">
   </a>
 </article>
 
@@ -321,14 +318,14 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 <section class="category category-colored">
 <div class="section-header">
 <h2 class="section-title">Health
-<a href="#" class="view-more">More</a></h2>
+<a href="#" class="view-more" aria-label="View more Health news">More</a></h2>
 </div>
 
 <div class="category-grid">
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="Health Story 1">
 <h3>Health Story 1</h3>
 <p>Lorem ipsum dolor sit amet.</p>
 <span class="timestamp">20 min ago</span>
@@ -337,7 +334,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="Health Story 2">
 <h3>Health Story 2</h3>
 <p>Vivamus sagittis lacus vel augue.</p>
 <span class="timestamp">40 min ago</span>
@@ -346,7 +343,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="Health Story 3">
 <h3>Health Story 3</h3>
 <p>Etiam porta sem malesuada magna.</p>
 <span class="timestamp">1 hour ago</span>
@@ -361,14 +358,14 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 <section class="category">
 <div class="section-header">
 <h2 class="section-title">Technology
-<a href="#" class="view-more">More</a></h2>
+<a href="#" class="view-more" aria-label="View more Technology news">More</a></h2>
 </div>
 
 <div class="category-grid">
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="Technology Story 1">
 <h3>Technology Story 1</h3>
 <p>Lorem ipsum dolor sit amet.</p>
 <span class="timestamp">1 hour ago</span>
@@ -377,7 +374,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="Technology Story 2">
 <h3>Technology Story 2</h3>
 <p>Aenean eu leo quam.</p>
 <span class="timestamp">2 hour ago</span>
@@ -386,7 +383,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="Technology Story 3">
 <h3>Technology Story 3</h3>
 <p>Cras mattis consectetur.</p>
 <span class="timestamp">4 hour ago</span>
@@ -401,7 +398,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="main-story">
 <a href="#">
-<img src="https://placehold.co/700x400" alt="">
+<img src="https://placehold.co/700x400" alt="NEWS GRID 3">
 <h3>Lorem ipsum dolor</h3>
 <span class="timestamp">10 min ago</span>
 <p>
@@ -415,9 +412,9 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
   <article class="side-card-vertical">
     <a href="#">
-      <img src="https://placehold.co/300x180" alt="Side Story 1">
+      <img src="https://placehold.co/300x180" alt="Side Story 3.1">
       <div class="text">
-        <h4>Side Story 1</h4>
+        <h4>Side Story 3.1</h4>
         <span class="timestamp">5 min ago</span>
         <p>Lorem ipsum dolor sit amet.</p>
       </div>
@@ -426,9 +423,9 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
   <article class="side-card-vertical">
     <a href="#">
-      <img src="https://placehold.co/300x180" alt="Side Story 2">
+      <img src="https://placehold.co/300x180" alt="Side Story 3.2">
       <div class="text">
-        <h4>Side Story 2</h4>
+        <h4>Side Story 3.2</h4>
         <span class="timestamp">8 hour ago</span>
         <p>Donec ullamcorper nulla.</p>
       </div>
@@ -443,14 +440,14 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 <section class="category  category-colored blue">
 <div class="section-header">
 <h2 class="section-title">Science
-<a href="#" class="view-more">More</a></h2>
+<a href="#" class="view-more" aria-label="View more Science news">More</a></h2>
 </div>
 
 <div class="category-grid">
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="Science Story 1">
 <h3>Science Story 1</h3>
 <p>Lorem ipsum dolor sit amet.</p>
 <span class="timestamp">2 days ago</span>
@@ -459,7 +456,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="Science Story 2">
 <h3>Science Story 2</h3>
 <p>Aenean eu leo quam.</p>
 <span class="timestamp">4 days ago</span>
@@ -468,7 +465,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 <article class="card">
 <a href="#">
-<img src="https://placehold.co/400x250">
+<img src="https://placehold.co/400x250" alt="Science Story 3">
 <h3>Science Story 3</h3>
 <p>Cras mattis consectetur.</p>
 <span class="timestamp">4 days ago</span>
@@ -482,7 +479,7 @@ Explicabo tempora perspiciatis voluptatem doloribus nisi.
 
 
 <!-- FOOTER -->
-<footer class="site-footer">
+<footer class="site-footer" role="contentinfo">
 
 <div class="footer-brand">
 <h2 class="footer-logo">CBS NEWS</h2>
